@@ -1,17 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
 *{
     margin:0;
     padding:0;
-}
-table, th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    padding: 10px;
+    box-sizing: border-box;
 }
 
 body{
-background-color: lightgreen;
+background-color: whitesmoke;
 font-size: 1em;
 font-weight: 500;
 color: black;
+font-family: 'Chilanka', cursive;
+}
+
+h1,
+h3,
+h4{
+    font-weight: 700;
+
+}
+
+h2{
+    font-weight: 500;
+}
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1em;
+}
+
+
+
+p{
+    font-size: 1.5em;
+}
+hr{
+    width: 400px;
+} 
+
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li{
+    margin:0 20px;
+}
+
+.logo-image{
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-link{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: indianred;
+}
+
+/* teams section */
+#teams{
+    background-color: lightblue;
+    color: lightslategray;
+    display: flex;
+    height: 500px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+/* #teams div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: lightblue;
+    color: lightslategray;
+    
+    
+} */
+#teams div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin: 5px 0;
+    padding-top: 25px;
+}
+.img{
+    width: 10vw;
+    height: 10vh;
+}
+.ars-img{
+    width: 10vw;
+    height: 18vh;
+}
+.bar-img{
+    width: 10vw;
+    height: 20vh;
+}
+.bay-img{
+    width: 12vw;
+    height: 23vh;
+}
+.liv-img{
+    width: 10vw;
+    height: 20vh;
+}
+.man-img{
+    width: 13vw;
+    height: 16vh;
+}
+.manc-img{
+    width: 13vw;
+    height: 19vh;
+}
+.real-img{
+    width: 10vw;
+    height: 19vh;
+}
+.che-img{
+    width: 10vw;
+    height: 17vh;
+}
+#teams div article{
+    background: white;
+    color: black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+/* fixtures section */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container{
+    width: 100%;
+    height: 90vh;
+    margin: 1%;
+    align-items: center;
+    padding: 1%;
+}
+.qualifier{
+    width: 25%;
+    height: 70vh;
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid  rgb(105, 32, 173);
+    border-radius: 5px;
+}
+.card1{
+    width: 40%;
+    height: 13vh;
+    padding: 1%;
+    margin: 1%;
+    background-color: white;
+    align-content: center;
+}
+.set{
+    width: 95%;
+    height: 15vh;
+    padding: 1%;
+    margin: 1%;
+    border: 1.5px solid rgb(209, 88, 129);
+    border-radius: 5px;
+    text-align: center;
+}
+.semifinal{
+    width: 25%;
+    height: 38vh;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(106, 35, 172);
+    border-radius: 5px;
+}
+
+.final{
+    width: 25%;
+    height: 20vh;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid rgb(107, 33, 175);
+    border-radius: 5px;
+}
+h3{
+    margin: 5vh auto auto auto;
+    border: 1px solid palegreen;
+    border-radius: 70px;
+    background-color: rgb(230, 74, 97);
+    color: black;
+    transform: scale(1.00);
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.ars1-img{
+    width: 90px;
+    height: 80px;
+    
+}
+.bar1-img{
+    width: 90px;
+    height: 80px;
+}
+.liv1-img{
+    width: 90px;
+    height: 80px;
+}
+.man1-img{
+    width: 120px;
+    height: 80px;
+}
+.manc1-img{
+    width: 120px;
+    height: 80px;
+}
+.bay1-img{
+    width: 90px;
+    height: 80px;
+}
+.real1-img{
+    width: 90px;
+    height: 80px;
+}
+.che1-img{
+    width: 90px;
+    height: 80px;
+}
+footer{
+    background-color: lightblue;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
 }

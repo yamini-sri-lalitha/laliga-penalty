@@ -9,121 +9,130 @@
 <body>
     <nav>
         <ul>
-            <li>
-                <img src="./assets/football.jpg" width="400px" height="300px">
+            <li class="logo-image">
+                <img class="logo" src="./assets/football.jpg" alt=" ">
             </li>
             <li>
                 <ul>
-                    <li><a href="#teams">TEAMS</a></li>
-                    <li><a href="#fixtures">FIXTURES</a></li>
-                    <li><a href="#gameplay">GAME PLAY</a></li>
-                    <li><a href="#pointstable">POINTS TABLE</a></li>
+                    <li><a href="#teams" class="nav-link">TEAMS</a></li>
+                    <li><a href="#fixtures" class="nav-link">FIXTURES</a></li>
+                    <li><a href="./game.html" class="nav-link">GAME PLAY</a></li>
+                    <li><a href="#" class="nav-link">POINTS TABLE</a></li>
                     
                 </ul>
             </li>
                    
         </ul>
     </nav>
-<header id="#teams">
+<header id="teams">
     <div>
         <article>
-            <img src="./assets/arsenal.png" width="250px" height="250px" alt=" "/><h4>Arsenal FC</h4><br>
-            <img src="./assets/barcelona.png" width="300px" height="200px" alt=" "/><h4>Barcelona FC</h4><br>
-            <img src="./assets/bayern.png" width="300px" height="300px" alt=" "/><h4>Bayern munchen FC</h4><br>
-            <img src="./assets/liverpool.jpg" width="300px" height="300px" alt=" "/><h4>Liverpool FC</h4><br>
-            <img src="./assets/manchcity.png" width="300px" height="200px" alt=" "/><h4>Manchester city FC</h4><br>
-            <img src="./assets/manchester.jpg" width="300px" height="200px" alt=" "/><h4>Manchester united FC</h4><br>
-            <img src="./assets/realmadrid.jpg" width="300px" height="300px" alt=" "/><h4>Real Madrid FC</h4><br>
-            <img src="./assets/chelsea.png" width="300px" height="300px" alt=" "/><h4>Chelsea FC</h4><br>
+            <img class="ars-img" src="./assets/arsenal.png" alt=" "><h4>Arsenal FC</h4>
+        </article>
+            <article>
+            <img class="bar-img" src="./assets/bar.jpg" alt=" "><h4>Barcelona FC</h4>
+        </article>
+            <article>
+            <img class="bay-img" src="./assets/bayern.png" alt=" "><h4>Bayern munchen FC</h4>
+        </article>
+            <article>
+            <img class="liv-img" src="./assets/liverpool.jpg" alt=" "><h4>Liverpool FC</h4>
+        </article>
+    </div>
+    <div>
+            <article>
+            <img class="man-img" src="./assets/manchcity.png" alt=" "><h4>Manchester city FC</h4>
+        </article>
+            <article>
+            <img class="manc-img" src="./assets/manchester.jpg" alt=" "><h4>Manchester united FC</h4>
+        </article>
+            <article>
+            <img class="real-img" src="./assets/realmadrid.jpg" alt=" "><h4>Real Madrid FC</h4>
+        </article>
+            <article>
+            <img class="che-img" src="./assets/chelsea.png" alt=" "><h4>Chelsea FC</h4>
         </article>
     </div>
 </header>
-<section id="#fixtures">
-    <h2>fixtures of teams</h2>
-    <table>
-        <tr>
-            <th>TEAM 1</th>
-            <th>TEAM 2</th>
-            <th>DATES</th>
-        </tr>
-        <tr>
-            <td>arsenal</td>
-            <td>barcelona</td>
-            <td>08-10-2020</td>
-        </tr>
-        <tr>
-            <td>bayern</td>
-            <td>liverpool</td>
-            <td>09-10-2020</td>
-        </tr>
-        <tr>
-            <td>manchcity</td>
-            <td>chelsea</td>
-            <td>10-10-2020</td>
-        </tr>
-        <tr>
-            <td>manchunited</td>
-            <td>realmadrid</td>
-            <td>11-10-2020</td>
-        </tr>
-    </table>
-    <br/>
-    <table>
-        <tr>
-            <th></th>
-            <th>DATES</th>
-        </tr>
-        <tr>
-            <td>semifinal-1</td>
-            <td>12-10-2020</td>
-        </tr>
-        <tr>
-            <td>semifinal-2</td>
-            <td>13-10-2020</td>
-        </tr>
-        <tr>
-            <td>finals</td>
-            <td>14-10-2020</td>
-        </tr>
-    </table>
-        <br>
+    <section id="fixtures">
+        
+        <div class="flex container-fix">
+            <a name="schedule"></a>
+            <div class="flex qualifier">
+                <div class="flex set">
+                    <div class="card1">
+                        <img class="ars1-img" src="./assets/arsenal.png" alt=" ">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card1">
+                        <img class="bar1-img" src="./assets/bar.jpg" alt=" ">
+                    </div>
+                </div>
+                <div class="flex set">
+                    <div class="card1">
+                        <img class="bay1-img" src="./assets/bayern.png" alt=" ">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card1">
+                        <img class="liv1-img" src="./assets/liverpool.jpg" alt=" ">
+                    </div>
+                </div>
+                <div class="flex set">
+                    <div class="card1">
+                        <img class="man1-img" src="./assets/manchcity.png" alt=" ">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card1">
+                        <img class="che1-img" src="./assets/chelsea.png" alt=" ">
+                    </div>
+                </div>
+                <div class="flex set">
+                    <div class="card1">
+                        <img class="manc1-img" src="./assets/manchester.jpg" alt=" ">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card1">
+                        <img class="real1-img" src="./assets/realmadrid.jpg" alt=" ">
+                    </div>
+                </div>
+            </div>
+            <div class="flex semifinal">
+                <div class="flex set">
+                    <div class="card1">
+                        <img class="ars1-img" src="./assets/arsenal.png" alt=" ">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card1">
+                        <img class="liv1-img" src="./assets/liverpool.jpg" alt=" ">
+                    </div>
+                </div>
+                <div class="flex set">
+                    <div class="card1">
+                        <img class="che1-img" src="./assets/chelsea.png" alt=" ">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card1">
+                        <img class="real1-img" src="./assets/realmadrid.jpg" alt=" ">
+                    </div>
+                </div>
+           </div>
+            <div class="flex final">
+                <div class="flex set">
+                    <div class="card1">
+                        <img class="liv1-img" src="./assets/liverpool.jpg" alt=" ">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card1">
+                        <img class="che1-img" src="./assets/chelsea.png" alt=" ">
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
 </section>
-    <section id="#gameplay">
-        <div>
-            <div>
-                <div>
-                    <img src="./assets/arsenal.png" width="250px" height="250px" alt=" "/>
-                    <span></span>
-                    <div>
-                        <span>1</span>
-                        <span>0</span>
-                        <span>0</span>
-                        <span>1</span>
-                        <span>0</span>
-                        <span>0</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div>
-                <div>
-                    <img src="./assets/barcelona.png" width="300px" height="200px" alt=" "/>
-                    <span></span>
-                    <div>
-                        <span>0</span>
-                        <span>1</span>
-                        <span>1</span>
-                        <span>0</span>
-                        <span>1</span>
-                        <span>0</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
     <footer>
-        Happy football league
+        <h4>happy football league</h4>
     </footer>
 </body>
 </html>
