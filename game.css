@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: lightblue;
+    background-image: url("/assets/ftbl.jpg");
 	display: flex;
 	justify-content: center;
 	height: 100vh;
@@ -59,11 +59,11 @@ body{
 #strike-button {
 	border: none;
 	border-radius: 40px;
-	background: rgb(180, 99, 137);
+	background: rgb(58, 80, 67);
 	font-size: large;
 	width: 300px;
 	color: white;
-	padding: 15px;
+	padding: 12px;
 	margin-top: 50px;
 	margin-bottom: -50px;
 	outline: none;
