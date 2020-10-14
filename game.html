@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="game.css">
 </head>
 <body>
-        <div class="container">
+<section id="gameplay">   
+        <div class="container"> <!--for semifinal1-->
             <div class="row">
                 <div class="col">
                     <img class="profile-icon" src="./assets/arsenal.png" width="90px" height="90px" alt=" ">
@@ -29,7 +30,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <img class="profile-icon" src="./assets/bar.jpg" width="90px" height="90px" alt=" ">
+                    <img class="profile-icon" src="./assets/liverpool.jpg" width="90px" height="90px" alt=" ">
                     <span class="name" id="team-2-name"></span>
                     <div class="row round-goal" id="team-2-round-goal">
                         <span class="col">-</span>
@@ -46,6 +47,88 @@
             </div>
             <div class="row" id="result" hidden></div>
         </div>
+        
+        <div class="container"> <!--for semifinal2-->
+            <div class="row">
+                <div class="col">
+                    <img class="profile-icon" src="./assets/chelsea.png" width="90px" height="90px" alt=" ">
+                    <span class="name" id="team-3-name"></span>
+                    <div class="row round-goal" id="team-3-round-goal">
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row score">
+                    <span id="team-3-score"></span>
+                    <span>-</span>
+                    <span id="team-4-score"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <img class="profile-icon" src="./assets/realmadrid.jpg" width="90px" height="90px" alt=" ">
+                    <span class="name" id="team-4-name"></span>
+                    <div class="row round-goal" id="team-4-round-goal">
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        <span class="col">-</span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <button id="strike-button1" onclick="handleStrikeButtonClick1()"></button>
+            </div>
+            <div class="row" id="result1" hidden></div>
+        </div>
+        
+            <div class="container"> <!--for final-->
+                <div class="row">
+                    <div class="col">
+                        <img class="profile-icon" src="./assets/liverpool.jpg" width="90px" height="90px" alt=" ">
+                        <span class="name" id="team-5-name"></span>
+                        <div class="row round-goal" id="team-5-round-goal">
+                            <span class="col">-</span>
+                            <span class="col">-</span>
+                            <span class="col">-</span>
+                            <span class="col">-</span>
+                            <span class="col">-</span>
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row score">
+                        <span id="team-5-score"></span>
+                        <span>-</span>
+                        <span id="team-6-score"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img class="profile-icon" src="./assets/chelsea.png" width="90px" height="90px" alt=" ">
+                        <span class="name" id="team-6-name"></span>
+                        <div class="row round-goal" id="team-6-round-goal">
+                            <span class="col">-</span>
+                            <span class="col">-</span>
+                            <span class="col">-</span>
+                            <span class="col">-</span>
+                            <span class="col">-</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                <button id="strike-button2" onclick="handleStrikeButtonClick2()"></button>
+                </div>
+                <div class="row" id="result2" hidden></div>
+            </div>
+</section>        
+        
 <script src="./game.js"></script>
 </body>
 </html>
